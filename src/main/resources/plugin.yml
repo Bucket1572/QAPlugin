@@ -1,4 +1,7 @@
-name: ${pluginName}
+name: QAPlugin
 version: ${version}
-main: ${group}.${packageName}.plugin.${pluginName}Plugin
+main: io.github.Bucket1572.quality.plugin.QualityPlugin
 api-version: 1.17
+libraries:
+  - io.github.monun:kommand-api:2.6.4
+  - io.github.monun:tap-api:4.1.2
